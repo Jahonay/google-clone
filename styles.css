@@ -85,22 +85,39 @@ button{
     margin-left:20px;
 }
 input{
-    display:flex;
+    display:inline-flex;
     position:relative;
     justify-content: center;
-    margin-top:20px;
-    width:500px;
-    height:44px;
-    border-radius: 24px;
-    border: 1px solid #dfe1e5;
+    width:450px;
+    border:none;
 }
 .logo-wrap{
     display:block;
 }
+svg{
+    height:34px;
+    width:34px;
+    display:inline;
+    margin-top:5px;
+}
+
+svg.glass{
+    margin-left:5px;
+}
+
+svg.goxjub{
+    margin-right:5px;
+}
+
 .text-wrap{
-    display:block;
-    width:auto;
-    margin:auto
+    display:flex;
+    flex-direction: row;
+    margin-top:20px;
+
+    width:500px;
+    height:44px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
   
 }
 .button-wrap{
